@@ -1,2 +1,2 @@
 job:
-  script: "ng:serve"
+  script: "ng:serve:web"
