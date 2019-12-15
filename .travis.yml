@@ -1,4 +1,14 @@
+git:
+  submodules: false
+
 language: node_js
 
-job:
-  script: "npm run build"
+node_js:
+  - "stable"
+  
+notifications:
+  email:
+    recipients:
+      - zdravecka.simona@gmail.com
+    on_success: never
+    on_failure: always
