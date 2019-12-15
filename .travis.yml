@@ -12,3 +12,8 @@ notifications:
       - zdravecka.simona@gmail.com
     on_success: never
     on_failure: always
+
+scripts:
+  - npm install codecov -g
+after_success:
+  - codecov
